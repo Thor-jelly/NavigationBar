@@ -23,6 +23,8 @@ public class NavigationBar extends AbsNavigationBar<NavigationBar.Builder> {
 
     /**
      * 新的builder
+     * 如果是全局统一样式，可以不需要传递布局进来，直接在构造方法里面设置好
+     * 还需要添加一些比较直观的方法。如：setLeftTextStr setTitleStr setRightTextStr 等等方法
      */
     public static class Builder extends AbsNavigationBar.Builder<Builder, AbsNavigationBar.Builder.NavigationParams, NavigationBar> {
 
